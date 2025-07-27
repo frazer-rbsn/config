@@ -1,0 +1,2 @@
+test:
+	./xcodebuild-test.sh
