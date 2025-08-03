@@ -10,6 +10,7 @@
 --xcodeindentation true
 
 --enable acronyms
+--enable applicationMain
 --enable blankLinesAfterGuardStatements
 --enable blankLinesAroundMark
 --enable blankLinesAtEndOfScope
@@ -25,6 +26,7 @@
 --enable modifierOrder
 --enable opaqueGenericParameters
 --enable preferCountWhere
+--enable spaceAroundBraces
 --enable wrapConditionalBodies
 
 --enable redundantBreak
