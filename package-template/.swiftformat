@@ -6,6 +6,7 @@
 --nilinit insert
 --nospaceoperators ...
 --propertytypes explicit
+--self insert
 --xcodeindentation true
 
 --enable acronyms
@@ -24,16 +25,20 @@
 --enable modifierOrder
 --enable opaqueGenericParameters
 --enable preferCountWhere
+--enable wrapConditionalBodies
 
 --enable redundantBreak
 --enable redundantGet
 --enable redundantLetError
 --enable redundantNilInit
 --enable redundantParens
+--enable redundantSelf
 
 --disable blankLinesAtStartOfScope
+--disable conditionalAssignment
 --disable consecutiveSpaces
 --disable enumNamespaces
 --disable preferKeyPath
 --disable redundantSelf
+--disable swiftTestingTestCaseNames
 --disable wrapMultilineStatementBraces
