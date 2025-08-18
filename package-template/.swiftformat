@@ -8,15 +8,11 @@
 --propertytypes explicit
 --self insert
 --xcodeindentation true
+--wrap-collections before-first
+--wrap-parameters after-first
 
 --enable acronyms
 --enable applicationMain
---enable blankLinesAfterGuardStatements
---enable blankLinesAroundMark
---enable blankLinesAtEndOfScope
---enable blankLinesBetweenChainedFunctions
---enable blankLinesBetweenImports
---enable blankLinesBetweenScopes
 --enable blockComments
 --enable braces
 --enable duplicateImports
@@ -27,7 +23,15 @@
 --enable opaqueGenericParameters
 --enable preferCountWhere
 --enable spaceAroundBraces
---enable wrapConditionalBodies
+--enable unusedPrivateDeclarations
+--enable yodaConditions
+
+--enable blankLinesAfterGuardStatements
+--enable blankLinesAroundMark
+--enable blankLinesAtEndOfScope
+--enable blankLinesBetweenChainedFunctions
+--enable blankLinesBetweenImports
+--enable blankLinesBetweenScopes
 
 --enable redundantBreak
 --enable redundantGet
@@ -35,6 +39,11 @@
 --enable redundantNilInit
 --enable redundantParens
 --enable redundantSelf
+
+--enable wrapArguments
+--enable wrapConditionalBodies
+--enable wrapLoopBodies
+--enable wrapSingleLineComments
 
 --disable blankLinesAtStartOfScope
 --disable conditionalAssignment
