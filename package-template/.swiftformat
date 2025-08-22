@@ -1,8 +1,11 @@
+--min-version 0.57.2
+
 --allman false
 --commas inline
 --header strip
 --indent tab
 --indentcase true
+--markdown-files format-strict
 --nilinit insert
 --nospaceoperators ...
 --propertytypes explicit
@@ -12,38 +15,42 @@
 --wrap-parameters after-first
 
 --enable acronyms
+--enable andOperator
+--enable anyObjectProtocol
 --enable applicationMain
---enable blockComments
---enable braces
---enable duplicateImports
---enable elseOnSameLine
---enable environmentEntry
---enable fileHeader
---enable modifierOrder
---enable opaqueGenericParameters
---enable preferCountWhere
---enable spaceAroundBraces
---enable unusedPrivateDeclarations
---enable yodaConditions
-
+--enable blankLineAfterImports
+--enable blankLinesBetweenChainedFunctions
 --enable blankLinesAfterGuardStatements
 --enable blankLinesAroundMark
 --enable blankLinesAtEndOfScope
 --enable blankLinesBetweenChainedFunctions
 --enable blankLinesBetweenImports
 --enable blankLinesBetweenScopes
-
+--enable blockComments
+--enable braces
+--enable duplicateImports
+--enable elseOnSameLine
+--enable environmentEntry
+--enable extensionAccessControl
+--enable fileHeader
+--enable isEmpty
+--enable leadingDelimiters
+--enable modifierOrder
+--enable opaqueGenericParameters
+--enable preferCountWhere
 --enable redundantBreak
 --enable redundantGet
 --enable redundantLetError
 --enable redundantNilInit
 --enable redundantParens
 --enable redundantSelf
-
+--enable spaceAroundBraces
+--enable unusedPrivateDeclarations
 --enable wrapArguments
 --enable wrapConditionalBodies
 --enable wrapLoopBodies
 --enable wrapSingleLineComments
+--enable yodaConditions
 
 --disable blankLinesAtStartOfScope
 --disable conditionalAssignment
